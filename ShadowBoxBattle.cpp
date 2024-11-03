@@ -36,8 +36,8 @@ int main(){
 
 
   do {
-       cout <<"\n1-Start\n2-Manual\n";
-       while (!(cin >> ans)){
+         cout <<"\n1-Start\n2-Manual\n";
+         while (!(cin >> ans)){
          cin.clear();
          cin.ignore(123,'\n');
          cout<<"Invalid Input\n";
@@ -48,7 +48,7 @@ int main(){
            cout<< "\n";
        }else if(ans!=1 && ans!=2)cout << "Invalid Input. Pick a right option\n";
   }while (ans!=1);
-      while(ans==1){
+  while(ans==1){
         roundwa=0;
         roundwd=0;
         int i=0;
